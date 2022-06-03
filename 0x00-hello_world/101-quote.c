@@ -8,7 +8,7 @@
  *     *
  *      * Return: return the value 1
  *       *
- *        */
+ */
 
 int main(void)
 {
