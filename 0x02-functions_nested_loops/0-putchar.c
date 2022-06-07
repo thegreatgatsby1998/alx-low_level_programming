@@ -1,21 +1,31 @@
-#include "holberton.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+
 /**
- * main - Entry point
- * Return:0
- */
+ *  * main - this is my code
+ *   * Return: void
+ *    */
+
 int main(void)
-
 {
+		char c[8] = "_putchar";
+			int i = 0;
 
-char c[8] = "_putchar";
+				for (i = 0; i < 8; i++)
+						{
 
-int i = 0;
+									putchar(c[i]);
 
-while (i < 8)
-{
-_putchar(c[i]);
-i++;
-}
-_putchar(*\n');
-return (0);
+										}
+
+					putchar('\n');
+
+						return (0);
+
+
+
+
 }
