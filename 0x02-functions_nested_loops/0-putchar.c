@@ -7,7 +7,7 @@
 /**
  *  * main - this is my code
  *   * Return: void
- *    */
+ */
 
 int main(void)
 {
