@@ -1,4 +1,4 @@
-#include <stdio.h>
+nclude <stdio.h>
 #include "main.h"
 
 /**
@@ -6,7 +6,7 @@
  *   *
  *    * Description: to print time table
  *     * Return: void
- */
+*/
 
 void times_table(void)
 {
