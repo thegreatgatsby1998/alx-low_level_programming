@@ -1,24 +1,28 @@
 #include <stdio.h>
-#include <ctype.h>
 /**
- *  * main - return alphabets expect e and q
+ *  * main - Entry point
  *   *
- *    * Description: print the required results
- *     *
- *      * Return: integer value 0
- *       *
+ *    * Return: Always 0 (Success/correct)
  */
-int main(void)
-{
-char ch;
 
-for (ch = 'a'; ch <= 'z'; ch++)
+int main(void)
+
 {
-if (ch != 'e' && ch != 'q')
+char alphabet;
+
+for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 {
-															putchar(ch);
+if (alphabet == 'q')
+continue;
+
+else if (alphabet == 'e')
+continue;
+
+putchar(alphabet);
 }
-}
+
 putchar('\n');
+
 return (0);
+
 }
