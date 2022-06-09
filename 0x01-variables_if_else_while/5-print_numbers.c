@@ -6,15 +6,15 @@
  *     *
  *      * Return: return integer 0
  *       *
- *        */
+ */
 int main(void)
 {
-		int var;
+int var;
 
-			for (var = 0; var < 10; var++)
-					{
-								printf("%d", var);
-									}
-				putchar('\n');
-					return (0);
+for (var = 0; var < 10; var++)
+{
+printf("%d", var);
+}
+putchar('\n');
+return (0);
 }
