@@ -1,26 +1,30 @@
 #include <stdio.h>
 /**
- *  * main - return the results for the function
+ *  * main - Entry point
  *   *
- *    * Description: print the required results
- *     *
- *      * Return: return the integer value 0
- *       *
+ *    * Return: Always 0 (Success/correct)
  */
 int main(void)
-{
-int num;
 
-for (num = 0; num < 10; num++)
 {
-putchar(num + '0');
-if (num < 9)
+int number;
+
+
+for (number = 48; number <= 57; number++)
 {
+putchar(number);
+
+if (number == 57)
+{
+break;
+}
+
 putchar(',');
-putchar(' ')
-}
-}
-putchar('\n');
-return (0);
+putchar (' ');
 }
 
+putchar('\n');
+
+return (0);
+
+}
