@@ -7,21 +7,21 @@
  *     *
  *      * Return: return integer value 0
  *       *
- *        */
+ */
 int main(void)
 {
-		char alphabet;
+char alphabet;
 
-			for (alphabet = 'A'; alphabet <= 'Z'; alphabet++)
-					{
-								putchar(tolower(alphabet));
-									}
-				for (alphabet = 'A'; alphabet <= 'Z'; alphabet++)
-						{
-									putchar(alphabet);
-										}
+for (alphabet = 'A'; alphabet <= 'Z'; alphabet++)
+{
+putchar(tolower(alphabet));
+}
+for (alphabet = 'A'; alphabet <= 'Z'; alphabet++)
+{
+putchar(alphabet);
+}
 
-					putchar('\n');
-						return (0);
+putchar('\n');
+return (0);
 
 }
