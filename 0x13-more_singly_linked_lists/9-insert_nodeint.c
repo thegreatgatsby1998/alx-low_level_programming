@@ -30,7 +30,7 @@ if (idx == 0)
 new->next = copy;
 *head = new;
 return (new);
-}																	
+}
 for (node = 0; node < (idx - 1); node++)
 {
 if (copy == NULL || copy->next == NULL)
